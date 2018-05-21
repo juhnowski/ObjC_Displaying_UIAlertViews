@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (IBAction)alertButton:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 
 @end
